@@ -73,4 +73,3 @@ while i <= number_of_iteration:
         if response.lower() == 'y':
             i = 0
 
-# Car Game
