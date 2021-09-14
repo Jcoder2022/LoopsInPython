@@ -9,7 +9,7 @@
 
 is_started = False
 command = ""
-while command.lower() != 'quit':
+while command != 'quit':
     command = input('> ').lower()
     if command == 'help':
         print('start - to start the car')
