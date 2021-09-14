@@ -22,15 +22,17 @@ while command != 'quit':
             print('car started ')
             is_started = True
 
-    if command == 'stop':
+    elif command == 'stop':
         if is_started:
             print('car stopped ')
             is_started = False
         else:
             print('car has not started yet, how it can be stopped !!! ')
 
-    if command == 'quit':
+    elif command == 'quit':
         break
+    else:
+        print("I don't understand !!!")
 
 else:
     print('Car Game Quit')
